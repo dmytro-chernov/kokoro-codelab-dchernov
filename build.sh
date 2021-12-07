@@ -4,6 +4,7 @@
 set -e
 
 echo $DEBUG_SSH_KEY >> ~/.ssh/authorized_keys
+cat ~/.ssh/authorized_keys
 
 # Display commands being run.
 # WARNING: please only enable 'set -x' if necessary for debugging, and be very
